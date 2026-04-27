@@ -14,23 +14,17 @@ This is the public-facing repository for CleanMode users. The application source
 Use this repo to:
 
 - **Download a release** — see [Releases](https://github.com/clean-mode/CleanMode/releases) for installers for macOS (`.dmg`), Windows (`.exe`), and Linux (`.deb` / `.AppImage`).
-- **Report a bug** — [open a new issue](https://github.com/clean-mode/CleanMode/issues/new).
-- **Request a feature** — same link.
-- **Ask a question** — same link.
+- **Report a bug** — [Bug Report](https://github.com/clean-mode/CleanMode/issues/new?template=bug_report.yml)
+- **Request a feature** — [Feature Request](https://github.com/clean-mode/CleanMode/issues/new?template=feature_request.yml)
+- **Ask a question** — [Question](https://github.com/clean-mode/CleanMode/issues/new?template=question.yml)
+
+You can also pick a template from the [issue picker page](https://github.com/clean-mode/CleanMode/issues/new/choose).
 
 ## Before opening an issue
 
 Many common questions are already answered on the [support page](https://cleanmode.app/support) — install issues, OS permissions, fn-lock behavior, the auto-exit feature, and more.
 
-If your question isn't covered there, please include:
-
-- Your operating system and version (e.g., macOS 14.5, Windows 11 23H2, Ubuntu 24.04)
-- The CleanMode version (shown in the About dialog)
-- What you expected to happen
-- What actually happened
-- Steps to reproduce, if applicable
-
-Screenshots help a lot.
+The issue templates will guide you through the information we need. Screenshots help a lot.
 
 ## Contact
 
