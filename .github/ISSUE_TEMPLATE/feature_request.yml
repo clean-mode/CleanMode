@@ -1,0 +1,38 @@
+name: Feature Request
+description: Suggest an improvement or new feature
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe what you're trying to do today and where the friction is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What's your proposed solution?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platforms
+    attributes:
+      label: Which platform(s) does this apply to?
+      multiple: true
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - All
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Have you considered any alternatives?
+      description: Optional — workarounds you've tried, similar features in other apps, etc.

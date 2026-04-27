@@ -1,0 +1,26 @@
+name: Question
+description: Ask a question about CleanMode
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before asking, please check the [support page](https://cleanmode.app/support) — most common questions are answered there.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System (if relevant)
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Not platform-specific

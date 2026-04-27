@@ -1,0 +1,73 @@
+name: Bug Report
+description: Something isn't working as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Before submitting, please check the [support page](https://cleanmode.app/support) — many common issues are already documented there.
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Windows 11
+        - Windows 10
+        - Linux (Ubuntu/Debian/Mint)
+        - Linux (Fedora/RHEL)
+        - Linux (other)
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: OS Version
+      placeholder: e.g. 14.5, 23H2, 24.04
+    validations:
+      required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: CleanMode Version
+      description: Find it in the About dialog.
+      placeholder: e.g. 0.1.0
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Optional but very helpful.
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag and drop images here. They'll upload automatically.
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Logs, related context, anything else you think might help.
