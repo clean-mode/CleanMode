@@ -3,6 +3,3 @@ contact_links:
   - name: Support and FAQ
     url: https://cleanmode.app/support
     about: Many common questions are already answered here. Please check first — install issues, OS permissions, fn-lock behavior, the auto-exit feature, and more.
-  - name: Private inquiry (security, billing, account)
-    url: mailto:support@cleanmode.app
-    about: For private matters, email us instead of opening a public issue.

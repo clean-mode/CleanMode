@@ -8,6 +8,8 @@ body:
       value: |
         Thanks for taking the time to report a bug. Before submitting, please check the [support page](https://cleanmode.app/support) — many common issues are already documented there.
 
+        For private matters (security, billing, account), email support@cleanmode.app instead of opening a public issue.
+
   - type: dropdown
     id: os
     attributes:
