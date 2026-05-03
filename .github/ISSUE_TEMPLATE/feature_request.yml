@@ -21,15 +21,13 @@ body:
   - type: dropdown
     id: platforms
     attributes:
-      label: Which platform(s) does this apply to?
+      label: Which platform(s) does this apply to? (optional — defaults to All)
       multiple: true
       options:
         - macOS
         - Windows
         - Linux
         - All
-    validations:
-      required: true
 
   - type: textarea
     id: alternatives
